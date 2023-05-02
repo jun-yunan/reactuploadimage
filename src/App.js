@@ -25,7 +25,7 @@ function App() {
 
     useEffect(() => {
         getImage()
-    },[])
+    },[setImage])
 
     const uploadImage = () => {
         fetch("http://localhost:3001/upload-image", {
